@@ -1,0 +1,660 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.navbar {
+    background: linear-gradient(to right bottom, #6509e2 40%, #5a02b4 70%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-bottom: 10px;
+}
+
+.navbar .nav-item {
+    border-bottom: 2px solid transparent;
+    padding :5px 0px;
+}
+
+.navbar .nav-item:hover {
+    border-bottom: 2px solid #fff;
+}
+
+
+
+.banner-section{
+    padding:75px 0px  0px;
+    
+}
+
+.background {
+    position: relative;
+    width: 100%;
+    background: linear-gradient(to right bottom, #6509e2 40%, #5a02b4 70%);
+    background-color: #5a02b4;
+    background-size: cover;
+}
+ .circle{
+    background: linear-gradient(to right bottom, #6509e2 40%, #5a02b4 70%);
+    background-color: #5a075abc;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 50%;
+    
+}
+
+
+.py-100{
+    padding: 100px 0px;
+}
+
+.a1 {
+    top: 150px;
+     animation: movecircles 20s linear infinite;
+     
+}
+
+.a2 {
+    left: 200px;
+    top: 200px;
+    transform: scale(0.6);
+     animation: movecircles 20s linear infinite;
+     
+}
+
+.a3 {
+    left: -250px;
+    top: 250px;
+    transform: scale(0.8);
+     animation: movecircles 20s linear infinite;
+     
+}
+
+.a4 {
+    left: 470px;
+    top: 300px;
+    transform: scale(0.75);
+     animation: movecircles 20s linear infinite;
+     
+}
+
+.a5 {
+    left: -150px;
+    top: 100px;
+    transform: scale(0.8);
+     animation: movecircles 20s linear infinite;
+     
+}
+
+.a6 {
+    bottom: 150px;
+     animation: movecircles 20s linear infinite;
+}
+
+.a7 {
+    left: 200px;
+    bottom: 200px;
+    transform: scale(0.6);
+     animation: movecircles 20s linear infinite;
+     
+}
+
+.a8 {
+    left: -250px;
+    bottom: 250px;
+    transform: scale(0.8);
+     animation: movecircles 20s linear infinite;
+     
+}
+
+
+
+@keyframes movecircles {
+    0% {
+        margin-left: 400px;
+    }
+
+    100% {
+        margin-left: -400px;
+    }
+}
+
+
+#btn1{
+    background-color: white;
+    padding: 15px;
+    border-radius: 0%;
+    transition: all 0.3s linear;
+
+}
+#btn2{
+    padding: 15px;
+    border: 1px solid white;
+    border-radius: 0%;
+    margin-left: 15px;
+    transition: all 0.3s linear;
+}
+#btn1:hover,#btn2:hover {
+    transform: translateY(-6px);
+    background: linear-gradient(to bottom right, #6509e2 40%, #5a02b4 70%);
+    border: 1px solid #fff;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+.background img,
+#movupdown
+{
+    animation: Moveupdoen 2s infinite alternate;
+}
+
+@keyframes Moveupdoen {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(30px);
+    }
+}
+@media only screen and (max-width: 991px) {
+   
+.banner-section{
+    padding: 55px 0px  0px;
+    
+}
+  }
+#services{
+    padding: 100px 0px;
+}
+#services .card{
+transition: all 0.3s linear;
+}
+#services i,.wokimg{
+    font-size:35px;
+    margin: 17px 0px;
+    
+}
+#services .card:hover i {
+    color: #5a02b4;
+}
+#services .card:hover {
+    top: -15px;
+    box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+    
+}
+#services h4 {
+    margin: 25px 0px;
+    color: gray;
+}
+#services p , .work p{
+    margin: 10px 0px;
+    
+}
+.img-updown{
+    animation: Moveupdoen 2s infinite alternate;
+}
+
+@keyframes Moveupdoen {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(30px);
+    }
+}
+.big-circle{
+    background: linear-gradient(to right bottom, #6509e2 40%, #5a02b4 70%);
+    background-color: #5a02b4;
+    width: 600px;
+    height: 600px;
+    top: -50px;
+    position: absolute;
+    left: -300px;
+    z-index: 0;
+    border-radius: 50%;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+.big-circle {
+    width: 400px;
+    height: 400px;
+    left: -200px;
+}
+
+}
+@media only screen and (max-width: 767px){
+.big-circle {
+    width: 300px;
+    height: 300px;
+    left: -150px;
+    right: inherit;}
+}
+#google-btn,#apple-btn
+
+{
+    background: linear-gradient(to right bottom, #6509e2 40%, #5a02b4 70%);
+    background-color: #5a02b4;
+    border-radius: 0%;
+    color: #fff;
+    padding: 15px 20px;
+    margin: 10px 15px 15px 0px;
+    transition: all 0.3s linear;
+
+}
+#google-btn:hover,
+#apple-btn:hover {
+    color: #fff;
+    transform: translateY(-6px);
+    background: linear-gradient(to bottom right, #6509e2 40%, #5a02b4 70%);
+    border: 1px solid #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+@media only screen and (max-width: 350px){
+    #google-btn,#apple-btn{
+        padding: 10px 12px;
+    }
+    }
+.work {
+        background: #f1f1f1;
+    }
+    .work .card:hover {
+        box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 #00000030;
+        
+    }
+    .work i{
+        font-size: 30px;
+        color: #5a02b4;
+    }
+    .workimg2{
+      color: #5a02b4;
+      
+    }
+    .work h4{
+        color: black;
+    }
+ 
+    .features{
+        margin:100px 0px;
+    }
+ 
+.features .card {
+    border: none;
+}
+.features {
+    overflow: hidden;
+}
+.features .card:hover {
+    top: -15px;
+}
+
+.features .card i {
+    color: #858585;
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+.features .card:hover i,
+.features .card:hover h4{
+    color: #5a02b4;
+}
+.features .card {
+    top: 0;
+    border-radius: 0%;
+    box-shadow: 0;
+    transition: all 0.3s linear;
+    background: transparent;
+    z-index: 1;
+}
+.circles{
+    background: linear-gradient(to right bottom, #6509e2 40%, #5a02b4 70%);
+    background-color: #5a02b4;
+    border-radius: 100%;
+    animation: movecircle 15s linear infinite;
+    width: 150px;
+    height: 150px;
+    position: absolute;   
+    margin-top: 20px;
+}
+@keyframes movecircle {
+    0% {
+        margin-left: 700px;
+    }
+
+    100% {
+        margin-left: -700px;
+    }
+}
+.iphone{
+    position: relative;
+    z-index: 2;
+    margin-top:90px;
+    
+    
+}
+
+.iphone-2 {
+    position: absolute;
+    top: 0;
+    left: 35%;
+    z-index: 1;
+    margin-top:90px;
+    
+}
+.features img {
+    animation: Moveupdoen 2s infinite alternate;
+}
+
+@keyframes Moveupdoen {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(30px);
+    }
+}
+
+.box {
+    left: 70px;
+    width: 55%;
+    height: 80%;
+    top: 70px;
+    align-items: center;
+    background: linear-gradient(to right bottom, #6509e2 40%, #5a02b4 70%);
+    background-color: #5a02b4;
+    overflow: hidden;
+    animation: rotetion 10s linear infinite;
+    position: absolute;
+    
+}
+
+@keyframes rotetion {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+} 
+.phone-animation {
+    min-height: 650px;
+    position: relative;
+
+}
+@media only screen and (max-width: 670px){
+    .iphone{ 
+        width: 200px;
+        align-items: center;
+        margin-left: 25px;
+    }
+    .iphone-2 {
+        align-items: center;
+        width: 200px;
+        margin-left: 25px;
+    } 
+    .phone-animation {
+        min-height: 400px;
+    }
+    .box {
+        
+        width: 40%;
+        height: 50%;   
+    }
+    }
+    #carousal{
+        background: linear-gradient(to right bottom, #6509e2 40%, #5a02b4 70%);
+    background-color: #5a02b4;
+    }
+    #carouselExampleSlidesOnly{
+        margin: 120px 50px;
+    }
+   
+    @media only screen and (max-width: 1080px){
+        #carouselExampleSlidesOnly{
+            margin: 120px 30px;
+        }
+    }
+    @media only screen and (max-width: 592px){
+        #carouselExampleSlidesOnly{
+            margin: 70px 0px;
+        }
+    }
+    #carousal i{
+        color: orange;
+    }
+   #backgroundsceenshort{
+    margin: 100px 0px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+   }
+   #backgroundsceenshort img{
+    max-width: 100%;
+    height: auto;
+   }
+
+@media only screen and  (max-width: 991px){
+    #backgroundsceenshort{
+        margin: 0px 0px;
+       
+       }
+       .small-circle{
+        left: -70px;
+       }
+}
+
+.plans {
+    background:  linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),url('images/pricing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width: 100%;
+    height: auto;
+   
+}
+
+.price-head {
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+}
+
+.price-head-text {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #ffffff;
+}
+
+.price-head .price-head-text .wave {
+    border-radius: 43%;
+    filter: opacity(0.8);
+    animation: drift linear infinite;
+    transform-origin: 50% 48%;
+    position: absolute;
+    z-index: -1;
+    top: -250px;
+    left: -50px;
+    width: 475px;
+    height: 475px;
+}
+
+.price-head .wave:nth-of-type(1) {
+    animation-duration: 5s;
+}
+
+.price-head .wave:nth-of-type(2) {
+    animation-duration: 7s;
+}
+
+.price-head .wave:nth-of-type(3) {
+    animation-duration: 9s;
+}
+
+@keyframes drift {
+    0% {
+        transform: rotate(360deg);
+    }
+}
+
+.plans h1 {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    
+
+}
+
+.plans h1 span {
+    padding-top: 25px;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+.plans .card {
+    border-radius: 0%;
+}
+
+.plans .p {
+    color: #9a9999;
+}
+
+
+.wave
+{
+    background: linear-gradient(to right bottom, #6509e2 40%, #5a02b4 70%);
+    background-color: #5a02b4;
+}
+
+.btn2{
+    background-color: #5a02b4;
+    padding: 20px;
+   border: none;
+    border-radius: 0%;
+    margin-left: 15px;
+    transition: all 0.3s linear;
+    color: #fff;
+    
+    
+}
+.btn2:hover {
+    transform: translateY(-6px);
+    background: linear-gradient(to bottom right, #6509e2 40%, #5a02b4 70%);
+    padding: 25px;
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.colorcard{
+    background-color: white;
+
+}
+.plans .card-body{
+    padding: 0px;
+    margin: 0px 0px 40px 20px;
+}
+
+.small-circle {
+    top: -50px;
+    right: -70px;
+    z-index: -1;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 50%;
+    background: linear-gradient(to right bottom, #6509e2 40%, #5a02b4 70%);
+    background-color: #5a02b4;
+
+}
+.experience img {
+    animation: Moveupdoen 2s infinite alternate;
+}
+
+@keyframes Moveupdoen {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(30px);
+    }
+}
+
+.small-circle2{
+    top: -50px;
+    left: -70px;
+    z-index: 2;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    overflow: hidden;
+    border-radius: 50%;
+    opacity: 1;
+    background: linear-gradient(to right bottom, #6509e2 40%, #5a02b4 70%);
+    background-color:red;
+}
+.py-200{
+    margin: 150px 0px 90px 0px;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+#features2{
+    
+    background:  linear-gradient(to bottom, #6610f2, #6f42c1);
+}
+.py{
+    padding: 140px 0px 50px 0px;
+}
+.animation{
+    position: relative;
+    margin-bottom: 50px;
+}
+.iphone-5{
+    position: relative;
+    z-index: 1;
+}
+.iphone-6{
+    position: absolute;
+    left: 120px;
+}
+.animation img{
+    max-width: 100%;
+    height: auto;
+}
+.animation img {
+    animation: Moveupdoen 2s infinite alternate;
+}
+
+@keyframes Moveupdoen {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(30px);
+    }
+}
+.back{
+    background-color: #f1f1f1;
+}
+.back i {
+    font-size: 40px;
+    color: #5a02b4;
+    padding-bottom: 15px;
+}
+
+.back h4 {
+    font-size: 22px;
+    font-weight: 500;
+}
+#footer{
+    background-color: black;
+}
